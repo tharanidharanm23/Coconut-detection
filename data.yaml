@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Coconut', 'Cracked_Coconut']
+
+roboflow:
+  workspace: hackthon-2usiz
+  project: cracked-coconuts-detection-onnbq
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hackthon-2usiz/cracked-coconuts-detection-onnbq/dataset/1
